@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body p {
+      font-size: 15px;
+      font-weight: 700;
+      text-align: start;
+    }
+
+    body {
+      background-color: hsl(217, 54%, 11%);
+      text-align: center;
+      color: hsl(215, 51%, 70%);
+    }
+
+    .object {
+      max-width: 340px;
+      min-height: 500px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0px;
+      background-color: hsl(216, 50%, 16%);
+      border-radius: 35px;
+
+    }
+
+    .NFT {
+      min-width: 300px;
+      max-height: 269px;
+      padding-top: 10px;
+      border-radius: 25px;
+    }
+
+    .object span {
+      color: hsl(0, 0%, 100%);
+      text-align: start;
+    }
+
+
+    * {
+      box-sizing: border-box;
+    }
+    .flex-container {
+  display: flex;
+  justify-content:space-around;
+  margin: 10px;
+  text-align: center;
+}
+    
+  </style>
+</head>
+
+<body>
+  <div class="object">
+    <img class="NFT" src="images/image-equilibrium.jpg">
+    <span>Equilibrium #3429</span>
+
+    <p>Our Equilibrium collection promotes<br> balance and calm.</p>
+<div class="flex-container">
+    <div style=" color: hsl(178, 100%, 50%);"><img src="images/icon-ethereum.svg">0.041 ETH</div>
+    <div><img src="images/icon-clock.svg">3 days left </div>
+</div>
+    <hr
+      style="width:75%;text-align:center;border-width:0; height:2px; color: hsl(215, 32%, 27%);background-color:hsl(215, 32%, 27%) ;">
+
+    <img style="max-width: 50px;" src="images/image-avatar.png">Creation of <i style="color: white;">Jules Wyvern</i>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://riza-talebi.web.app">Riza Talebi</a>.
+  </div>
+</body>
+
+</html>
